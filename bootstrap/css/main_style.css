@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+.main_engduino_bg{
+
+	height:500px; width:550px;  
+}
+
+.main_container{
+
+	
+	width:100% ;
+	overflow:hidden ;
+}
+
+.product_feature_list{
+		margin-top:10em ;
+margin-right:3% ;
+	margin-left:45% ;
+
+
+}
+
+.product_feature_list ul{
+ 	font-size:16px;
+}
+
+.main_img_container_index{
+
+	
+	float:left ;
+	margin-left:5% ;
+		margin-top:5em ;
+	height:500px; width:550px;  
+	 width:550px;  
+}
+
+.main_img_container{
+	float:left ;
+	margin-left:5% ;
+		
+	 width:100%;  
+
+
+}
+
+.main_requirements_table td{
+
+	padding:5px;
+	
+}
+
+.main_requirements_table{
+
+	margin-bottom:30px;
+	border-radius:20px;
+}
+
+.architectural_diagram{
+
+	height:700px; width:650px; 
+	float:left ; 
+	display:block ;
+	
+}
+
+.architectural_diagram_2{
+
+	height:600px; width:600px; 
+	margin-left:auto; 
+	margin-right:auto ;
+	display:block ;
+	margin-top:50px;
+	
+}
