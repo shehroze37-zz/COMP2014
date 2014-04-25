@@ -40,7 +40,7 @@
 
 			      <li data-magellan-arrival="product"><a href="#product">Manuals</a></li>
 
-			      <li data-magellan-arrival="pricing"><a href="#pricing-table">Technicals / Preferences</a></li>
+			      <li data-magellan-arrival="pricing"><a href="technicals.php">Technicals / References</a></li>
 
 			      <li data-magellan-arrival="contact"><a href="forum">Forum</a></li>
 
