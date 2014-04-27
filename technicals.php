@@ -58,8 +58,11 @@
 			<h2>Referenced materials cited</h2>
 
 				<ul>
-                	<li>http://docs.oracle.com/javafx/2/drag_drop/jfxpub-drag_drop.htm</li>
-                    <li>http://http//code.makery.ch/java/javafx-2-tutorial-part5/</li>
+                	<li><a target="_blank" href = "http://docs.oracle.com/javafx/2/drag_drop/jfxpub-drag_drop.htm">http://docs.oracle.com/javafx/2/drag_drop/jfxpub-drag_drop.htm</a></li>
+                    <li> <a target="_blank" href = "http://http//code.makery.ch/java/javafx-2-tutorial-part5/">http://http//code.makery.ch/java/javafx-2-tutorial-part5/</a></li>
+                    
+                    
+                    <li><a target="_blank" href = "http://code.makery.ch/blog/javafx-2-dialogs/">http://code.makery.ch/blog/javafx-2-dialogs/</a></li>
                 </ul>
 			
 
@@ -103,11 +106,43 @@
 
 			<h2>Design Patterns</h2>
 
-			
+			<p>The design pattern we choose for our project are Singleton and MVP design patterns. Model View Presenter/Controller is the most widely used design pattern for creating GUI applications. In our application there is one main view which is the main user interface and there are different controllers managing and controlling the graphical user interface which are listed below <br/>
+            
+            <ul style = "margin-left:20px;">
+            
+            	<li>Sketch Controller</li>
+                <li>Module Controller</li>
+                <li>Module Connection Controller</li>
+                <li>Code View Controller</li>
+                <li>Main GUI Controller</li>
+                 <li>Utility Controller</li>
+            </ul>
+            These controllers are responsible for creating and handling multiple sketches, adding multiple modules in a particular sketch, creating connection between various modules , generating and parsing of Module tree for code generation and for handling the graphical components of the user interface such as creating tab panes, adding tabs etc ..
+            
+            
+            <br/><br/>The model classes represent objects such as sketches, modules etc these model classes are represent to hold the object values. Our MVP implementation is passive because the model are directly controlled by the controller classes. 
+            
+            <br/><br/>
+            
+            Many of our utility functions were only to be created once when the program starts therefore we decided to use singleton design pattern for controlling these Utility classes. There is one main Utility controller which is responsible for creating and handling these Utilities. Following is the list of Utilities used in out application. 
+            
+            <br/><br/>
+            
+            
+            <ul style = "margin-left:20px;">
+            
+            	<li>New Sketch Utility</li>
+                <li>Save Sketch Utility</li>
+                <li>Generate Code Utiltiy (Verify Code)</li>
+                <li>Upload Code Utility</li>
+                <li>Open Sketch Utility</li>
+                <li>Print Code Utility</li>
 
 
-    
-
+   			 </ul>
+             
+             Various Event handler and Menu Items are associated with these utilities.
+			</p>
 
         </div>
 
