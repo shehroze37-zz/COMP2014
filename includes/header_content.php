@@ -33,12 +33,12 @@
 
 			      <li ><a href="development.php">Development</a></li>
 
-			      <li ><a href="testing.php">Testing</a></li>
+			      <li ><a href="test.php">Testing</a></li>
                   
                   
-                  <li data-magellan-arrival="features"><a href="#features">Features</a></li>
+                  <li data-magellan-arrival="features"><a href="index.php#features">Features</a></li>
 
-			      <li data-magellan-arrival="product"><a href="#product">Manuals</a></li>
+			      <li data-magellan-arrival="product"><a href="index.php#product">Manuals</a></li>
 
 			      <li data-magellan-arrival="pricing"><a href="technicals.php">Technicals / References</a></li>
 

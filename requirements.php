@@ -54,7 +54,7 @@
 
 	<div class="row hi-icon-wrap hi-icon-effect-3 hi-icon-effect-3b">
     
-    	<p align="center" class = "main_requirements_title">" Some requirements and their priority from COMP 2013 were changed during COMP2014, below is the list of final set of requirements according to the MoSCOW approach "</p>
+    	<p align="center" class = "main_requirements_title">" Some requirements and their priority from COMP2013 were changed during COMP2014, below is the list of final set of requirements according to the MoSCOW approach "</p>
     
 
 		<p class = "main_requirement_title">Must Have Requirements</p>
