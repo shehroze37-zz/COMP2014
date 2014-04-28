@@ -71,7 +71,7 @@
 
 			<h3>Save and Load Sketches</h3>
 
-			<p>The Engduino IDE allows the user to save sketches, the sketches are saved as XML and can be opened for later use
+			<p>The Engduino IDE allows the user to save sketches, the sketches are saved as XML and can be opened for later use.
 </p>
 
 		</div>
@@ -84,7 +84,7 @@
 
 			<h3>Built in Compiler and Uploader</h3>
 
-			<p>The Engduino IDE is able to cross-compile the code to Atmel AVR machine code for the Engduino processor to run
+			<p>The Engduino IDE is able to cross-compile the code to Atmel AVR machine code for the Engduino processor to run.
 
 </p>
 
@@ -96,7 +96,7 @@
 
 			<h3>Textual View for code</h3>
 
-			<p>The Engduino IDE provides a view of the textual code for the use of students transitioning from graphical programming languages
+			<p>The Engduino IDE provides a view of the textual code for the use of students transitioning from graphical programming languages.
 
 </p>
 
@@ -108,7 +108,7 @@
 
 			<h3>Easy use of Hardware components</h3>
 
-			<p>The Engduino IDE allow the use of the different sensors on the Engduino in the code
+			<p>The Engduino IDE allow the use of the different sensors on the Engduino in the code.
 
 </p>
 
@@ -124,7 +124,7 @@
 
 			<h3>Graphical Representation of Flow control/Hardware components</h3>
 
-			<p>The Engduino IDE graphically represent different programming elements such as inputs, outputs and flow control</p>
+			<p>The Engduino IDE graphically represent different programming elements such as inputs, outputs and flow control.</p>
 
 		</div>
         
@@ -146,7 +146,7 @@
 
 			<h3>Print Code</h3>
 
-			<p>The Engduino IDE is able to print out the code so that teachers can use it for marking
+			<p>The Engduino IDE is able to print out the code so that teachers can use it for marking.
 </p>
 
 		</div>
