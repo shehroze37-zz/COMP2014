@@ -56,7 +56,8 @@
 		<div class="large-12 columns">
 
 			<h2>Referenced materials cited</h2>
-
+				
+                <p>The sources listed below were used because most of them provide open source Utility such as Creating and handling dialogs ...</p>
 				<ul>
                 	<li><a target="_blank" href = "http://docs.oracle.com/javafx/2/drag_drop/jfxpub-drag_drop.htm">http://docs.oracle.com/javafx/2/drag_drop/jfxpub-drag_drop.htm</a></li>
                     <li> <a target="_blank" href = "http://http//code.makery.ch/java/javafx-2-tutorial-part5/">http://http//code.makery.ch/java/javafx-2-tutorial-part5/</a></li>
@@ -65,6 +66,44 @@
                     <li><a target="_blank" href = "http://code.makery.ch/blog/javafx-2-dialogs/">http://code.makery.ch/blog/javafx-2-dialogs/</a></li>
                 </ul>
 			
+
+		</div>
+		
+        
+
+	</div>
+
+</div>
+
+<div id="technicals" class="section features" data-magellan-destination="technicals" style = "margin-top:50px;">
+
+	<div class="row hi-icon-wrap hi-icon-effect-3 hi-icon-effect-3b">
+
+		<div align="center" class="large-12 columns">
+
+			<h2>Examples / Trials Made</h2>
+				
+                <p>We made some trials in order to understand how various graohical user elements behave in javafx. Below are the trials slong with their details</p>
+                
+                <p>The first trial we did was to understand the concept of stage, action handlers for buttons, Main GUI document controller in JavaFX and to test how the graphical elements are build and used in the java application. Below is the CustomControl window which has a text box and a button and when the button is clicked the text of the text box is printed.</p>
+                
+                <img src="graphics/Screen Shot 2014-04-27 at 23.33.15.png">
+                <br/>
+                
+                <p>The most important part of the IDE is the drag and drop environment which makes easier for children in schools to use the IDE and program the engduino board and this was one of the main things we tested in our prototype for COMP 2013. We made a trail for this and were able to demonstrate that drag and drop is possible using javafx and we can go ahead with the project. </p>
+                
+                <img  src="graphics/Screen Shot 2014-04-27 at 23.33.31.png">
+                
+                <p>This trail led us in developing the first drag and drop prototype for the IDE<br/></p>
+                
+                 <img src="graphics/prototype.png" >
+			
+            
+            	<p><br/>The third trial was another very important one in the entire application as how will different modules be connected with each other. This was suppose to be very flexible as users would drag the module component across the sketch so the connecting element was suppose to move with it in a really elegant manner. First we decided to use third party API for this but there was no proper API which could meet the specific needs of our IDE so we decided to build our own classes for it. Below is the trial which represents a bezier curve which acts as a wire in our application to connect teo modules together. As the circle are dragged the curve changes it structure based on the new coordinates and still holds the circles together. This was extended in our application as connection wires are dragged and then connected with modules which then gives two modules the same behaviour as demonstrated below. </p>
+                
+                <img src="graphics/Screen Shot 2014-04-27 at 23.32.51.png">
+            
+            <hr>
 
 		</div>
 		
@@ -106,7 +145,7 @@
 
 			<h2>Design Patterns</h2>
 
-			<p>The design pattern we choose for our project are Singleton and MVP design patterns. Model View Presenter/Controller is the most widely used design pattern for creating GUI applications. In our application there is one main view which is the main user interface and there are different controllers managing and controlling the graphical user interface which are listed below <br/>
+			<p>The design pattern we choose for our project are Singleton and MVP design patterns. Model View Presenter/Controller is the most widely used design pattern for creating GUI applications. In our application there is one main view which is the main user interface, which is made up of number of different components that work in coordination with each other and there are different controllers managing and controlling the graphical user interface which are listed below <br/>
             
             <ul style = "margin-left:20px;">
             
