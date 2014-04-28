@@ -57,6 +57,7 @@
 
 			<h2>Testing</h2>
 
+            <p>Our testing strategy consists of running unit tests on critical parts of code, that are required for multiple functions in the system. The JUnit framework is used for this which integrates with NetBeans, allowing them to be run automatically following any modifications to the relevant code. We have also conducted general system testing across multiple operating systems and CPU architectures to ensure the software works as intended.</p>
 
 			
 
