@@ -16,7 +16,7 @@
 
   <meta name="viewport" content="width=device-width" />
 
-  <title>COMP2014 EngduinoIDE Development</title>
+  <title>COMP2014 EngduinoIDE Technicals</title>
 <link rel = "stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" />
 <link rel = "stylesheet" type="text/css" href="bootstrap/css/main_style.css" />
 <script src="http://use.edgefonts.net/lato.js"></script>
@@ -55,15 +55,14 @@
 
 		<div class="large-12 columns">
 
-			<h2>Referenced materials cited</h2>
-				
-                <p>The sources listed below were used because most of them provide open source Utility such as Creating and handling dialogs ...</p>
+			<h2>Development Plan</h2>
+
 				<ul>
-                	<li><a target="_blank" href = "http://docs.oracle.com/javafx/2/drag_drop/jfxpub-drag_drop.htm">http://docs.oracle.com/javafx/2/drag_drop/jfxpub-drag_drop.htm</a></li>
-                    <li> <a target="_blank" href = "http://http//code.makery.ch/java/javafx-2-tutorial-part5/">http://http//code.makery.ch/java/javafx-2-tutorial-part5/</a></li>
+                	<li>By the 24th February, work on the uploading and compiling code was complete, as was the majority of the final version of the UI. </li>
+                    <li>By the 29th March, the C++ code to run on the Engduino and sit behind the graphical blocks was completed, as well as the code that subsequently traversed the tree and combined the code.</li>
                     
                     
-                    <li><a target="_blank" href = "http://code.makery.ch/blog/javafx-2-dialogs/">http://code.makery.ch/blog/javafx-2-dialogs/</a></li>
+                    
                 </ul>
 			
 
@@ -75,33 +74,31 @@
 
 </div>
 
-<div id="technicals" class="section features" data-magellan-destination="technicals" style = "margin-top:50px;">
-
-	<div class="row hi-icon-wrap hi-icon-effect-3 hi-icon-effect-3b">
-
-		<div class="large-12 columns">
-
-			<h2>Examples / Trials Made</h2>
-				
-                
-			
-
-		</div>
-		
-        
-
-	</div>
-
-</div>
-
-<div id="diagrams" class="section product gray" data-magellan-destination="diagrams">
+<div id="management" class="section product gray" data-magellan-destination="diagrams">
 
 	<div class="row">
 
 		<div class="large-12 columns">
 
-			<h2>Architectural Diagrams</h2>
+			<h2>Work Packages</h2>
+            <ul>
+                <p>Shehroze completed the following work packages:</p>
+                <ul>
+                    <li></li>
+                </ul>
+                <p>Tom completed the following work packages:</p>
+                <ul>
+                    <li>Creation of JUnit Tests.</li>
+                    <li>Code to reset the bootloader on the Engduino to allow for upload.</li>
+                    <li>Code to generate commands to run the G++ and GCC compilers to compile for the Engduino.</li>
+                    <li>Code to convert the compiler output to a writable hex file to be deployed on the Engduino using avr-objcopy.</li>
+                    <li>Integrated the avrdude programming tool into the IDE so that the hex file can be transferred over the USB connection to the Engduino.</li>
+                    <li>The printUtility class to allow the user to print the underlying C++ code.</li>
+                    <li>Testing functionality across Linux and Windows</li>
+                    <li>Sourced the tools and libraries required for each CPU architecture and OS and integrated them in, where external binaries were used.</l>
 
+                </ul>
+            </ul>
 			
 			
 
@@ -114,59 +111,13 @@
 
 
 
-<div id="design_patterns"  class="section contact gray" data-magellan-destination="design_patterns">
+
 
 	
 
     
 
-    <div class="row">
 
-		<div class="large-12 columns">
-
-			<h2>Design Patterns</h2>
-
-			<p>The design pattern we choose for our project are Singleton and MVP design patterns. Model View Presenter/Controller is the most widely used design pattern for creating GUI applications. In our application there is one main view which is the main user interface, which is made up of number of different components that work in coordination with each other and there are different controllers managing and controlling the graphical user interface which are listed below <br/>
-            
-            <ul style = "margin-left:20px;">
-            
-            	<li>Sketch Controller</li>
-                <li>Module Controller</li>
-                <li>Module Connection Controller</li>
-                <li>Code View Controller</li>
-                <li>Main GUI Controller</li>
-                 <li>Utility Controller</li>
-            </ul>
-            These controllers are responsible for creating and handling multiple sketches, adding multiple modules in a particular sketch, creating connection between various modules , generating and parsing of Module tree for code generation and for handling the graphical components of the user interface such as creating tab panes, adding tabs etc ..
-            
-            
-            <br/><br/>The model classes represent objects such as sketches, modules etc these model classes are represent to hold the object values. Our MVP implementation is passive because the model are directly controlled by the controller classes. 
-            
-            <br/><br/>
-            
-            Many of our utility functions were only to be created once when the program starts therefore we decided to use singleton design pattern for controlling these Utility classes. There is one main Utility controller which is responsible for creating and handling these Utilities. Following is the list of Utilities used in out application. 
-            
-            <br/><br/>
-            
-            
-            <ul style = "margin-left:20px;">
-            
-            	<li>New Sketch Utility</li>
-                <li>Save Sketch Utility</li>
-                <li>Generate Code Utiltiy (Verify Code)</li>
-                <li>Upload Code Utility</li>
-                <li>Open Sketch Utility</li>
-                <li>Print Code Utility</li>
-
-
-   			 </ul>
-             
-             Various Event handler and Menu Items are associated with these utilities.
-			</p>
-
-        </div>
-
-        </div>
 
 </div>
 
