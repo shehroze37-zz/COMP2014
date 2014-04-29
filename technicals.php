@@ -130,6 +130,25 @@
 
 </div>
 
+<div id="hci1" class="section product gray" data-magellan-destination="diagrams">
+
+	<div class="row">
+
+		<div class="large-12 columns">
+
+			<h2>Addressing User Needs</h2>
+            <p>To ensure we addressed the needs of the users of the software, who would be school pupils from ages 9-14, we conducted interviews with school teachers from both primary and secondary schools. This gave us an insight into how they would expect our software to be used within the two different scenarios. We also conducted a competitor analysis using Scratch, a drag and drop IDE designed for a similar age group, and Choregraphe, also a drag and drop IDE but primarily aimed for use within academia.</p>
+            <p>We identified the needs of the users from our research and found that providing visual feedback to users, whilst they are constructing the program would be important. Also consistent use of colour to represent different types of drag and drop block, would provide good affordance to those new to programming. We also realised that both setting up and starting up the software in schools should be as hassle free as possible, so that students can just use the software rather than getting teachers to come and fix it, therefore we decided on using automatic serial port selection to ensure that the Engduino was detected automatically, and also provided a bootable live cd for schools where installation could be problematic.</p>
+            <p>From the needs we identified we then constructed multiple paper prototypes of the user interface, from which we chose the best features and made into a prototype using a JavaFX UI. We then went back to the school teachers we had previously interviewed and gathered feedback on the prototype.</p>
+
+
+
+		</div>
+
+	</div>
+
+</div>
+
 
 
 
