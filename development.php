@@ -79,6 +79,31 @@
 
 </div>
 
+<div id="meetings" class="section features" data-magellan-destination="technicals" style = "margin-top:50px;">
+
+	<div class="row hi-icon-wrap hi-icon-effect-3 hi-icon-effect-3b">
+
+		<div class="large-12 columns">
+
+			<h2>Meetings</h2>
+
+				<p>Over the course of the term, Tom organised meetings with our client Professor Stephen Hailes, to ensure that we got regular feedback from him regarding each stage of development:</p>
+			    <ul>
+			        <li>January 17th - We discussed implementation details with regards to flow control modules in the software, technical details around hardware that was to be ordered.</li>
+			        <li>January 27th - We received feedback on the user interface prototype from Steve, discussed possible alternatives to layout of Arduino code.</li>
+			        <li>February 13th - We discussed potential exercises for use with the IDE, organised a second meeting with school teachers in Camden to get feedback from them regarding the user interface.</li>
+                    <li>February 24th - Following on from our meeting with the school teachers, we decided that use of an SD card reader would provide a good way of logging data using the Engduino, so requested that we could use an SD card library developed by the Engduino team (which was then unfortunately sent to us too late for us to use in the project).</li>
+                    <li>March 26th - We discussed how we intended to join each block's code together and the typing of the links between modules.</li>
+			    </ul>
+
+		</div>
+
+
+
+	</div>
+
+</div>
+
 <div id="collab" class="section features" data-magellan-destination="technicals" style = "margin-top:50px;">
 
 	<div class="row hi-icon-wrap hi-icon-effect-3 hi-icon-effect-3b">
