@@ -56,10 +56,15 @@
 		<div class="large-12 columns">
 
 			<h2>Development Plan</h2>
-
+                <p>Our development was clearly divided and planned in order to provide achievable targets for completion of work packages so that:</p>
 				<ul>
-                	<li>By the 24th February, work on the uploading and compiling code was complete, as was the majority of the final version of the UI. </li>
-                    <li>By the 29th March, the C++ code to run on the Engduino and sit behind the graphical blocks was completed, as well as the code that subsequently traversed the tree and combined the code.</li>
+				    <li>By the 8th February, work was complete on tying in the compiler for the C++ code to be compiled and work on styling the UI and making it properly scalable was also completed.</li>
+                	<li>By the 14th February, more UI styling was complete, as were the graphics for each module component and the code used to upload a hex file to the Engduino was completed.</li>
+                	<li>By the 28th February, work on the integration of the GCC compiler was completed, in order to link together the C and C++ code both from Arduino/Engduino libraries and the user created sketch. The sketch and module controller classes were also completed as well as half of the module classes.</li>
+                	<li>By the 15th March, work was completed on the connection of avr-objcopy to the IDE, so that a compiled sketch can be converted into an uploadable hex file. The graphical connection from module to module was also implemented using a bezier curve.</l>
+                	<li>By the 31st March, work was completed on structuring the underlying C++ code and how it is formed as blocks are added to the tree. Extra modules were also created to represent boolean logic operators.</li>
+                	<li>By the 14th April, the loading, saving and printing classes were completed, as was the custom module code.</li>
+
                     
                     
                     
@@ -105,7 +110,7 @@
 		<div class="large-12 columns">
 
 			<h2>Management of the Project</h2>
-            <p>Because there were only two people working on the project, this made the management much easier among the group members and we divided the work fairly from the very start. We set deadlines in terms of the requirements we were suppose to complete and were getting feedback on the work from the client. Although the work burden was increased because of the number of people in the team, good management allowed us to finish the project in time along with the reports, presentations and other stuff. Both of us decided to complete the must have set of requirements by the end of reading week. Although we were a little late on schedule during that time period but after that we got on track. All the must have requirements were completed following the end of reading week and then we started working on the should have requirements and putting everything together.The individual bit for the project were completed by the end of march and then during april we started testing and putting everything together and making sure that nothing  in terms of features and functionality is left out. Shehroze was responsible for handling the grahical elements of the project and creating various controllers and model classes required for the project. Tom was responsible for integrating libraries for compiling and uploading the code on the engduino. We were havong consistent meetings discussing any issues and taking things further from that point. Listed below is the the complete list of the work packages completed between the two team memebers.</p>
+            <p>Because there were only two people working on the project, this made the management much easier among the group members and we divided the work fairly from the very start. We set deadlines in terms of the requirements we were suppose to complete and were getting feedback on the work from the client. Although the work burden was increased because of the number of people in the team, good management allowed us to finish the project in time along with the reports, presentations and other stuff. Both of us decided to complete the must have set of requirements by the end of reading week. Although we were a little late on schedule during that time period but after that we got on track. All the must have requirements were completed following the end of reading week and then we started working on the should have requirements and putting everything together.The individual bit for the project were completed by the end of march and then during april we started testing and putting everything together and making sure that nothing  in terms of features and functionality is left out. Shehroze was responsible for handling the graphical elements of the project and creating various controllers and model classes required for the project. Tom was responsible for integrating libraries for compiling and uploading the code on the Engduino. We were having consistent meetings discussing any issues and taking things further from that point. Listed below is the the complete list of the work packages completed between the two team memebers.</p>
 
 
 			<h2>Work Packages</h2>
@@ -122,7 +127,6 @@
                     <li>Creating classes to generate XML file for sketches and to parse XML and generate sketches</li>
                     <li>Programming the main controller for the graphical user interface</li>
                     <li>Integrating Dialogs which are used for displaying errors and messages to the user</li>
-                    
                     <li>Testing functionality on Mac</li>
                 </ul>
                 

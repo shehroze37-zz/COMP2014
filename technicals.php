@@ -171,7 +171,27 @@ Shadowbox.init({
 
 </div>
 
+<div id="hci1" class="section product gray" data-magellan-destination="diagrams">
 
+	<div class="row">
+
+		<div class="large-12 columns">
+
+			<h2>Technical Achievements and Implementation Details</h2>
+            <p>The project required the use of various technologies to implement specific features including:</p>
+		    <ul>
+		    <li>JavaFX was used to create the drag and drop user interface, in combination with CSS styling.</li>
+		    <li>GCC is used by the IDE to compile the C code generated for each sketch and to link the C++ code.</li>
+		    <li>G++ is used by the IDE to compile the C++ code generated for each sketch.</li>
+		    <li>The jSSC library was used to provide serial port connectivity within the IDE for uploading code within the Engduino.</li>
+		    <li>In order to save sketches, they are parsed to XML both graphically and structurally, so that they can be followed restored when loaded.</p>7
+		    <li>The tool avrdude is used by the IDE to upload the code to Engduino, following the conversion of the compiled program to a hex file by avr-objcopy.</li>
+		    </ul>
+		</div>
+
+	</div>
+
+</div>
 
 
 <div id="design_patterns"  class="section contact gray" data-magellan-destination="design_patterns">

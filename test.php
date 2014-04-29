@@ -76,7 +76,7 @@
 
 			<h2>Evaluation</h2>
 
-
+            <p>Overall we think that the project has been successful, having met all of the must have requirements, all but one of the should have requirements and also one of the could have requirements. The user interface provides a relatively simple way of programming the Engduino, which can be done through directly through the software thanks to the compiler and uploader integration. We worked well as a team, dividing the work amongst the two of us evenly. The research conducted throughout the proof of concept stage provided us with a solid foundation upon which we could develop the software, with our technical research in particular providing us a full understanding of what needed to be done. Combined with the general adherence to deadlines by the team members, this ensured that we met our development goals and did not encounter too many issues over the course of the term. <p>
 
 
 		</div>
