@@ -22,7 +22,7 @@
 
 		<div class="large-6 columns">
 			<h1>Engduino IDE</h1>
-			<span class="subheading">Powerful, Simple and Easy to use !</span>
+			<span class="subheading">A drag and drop IDE for the Engduino</span>
 		</div>
 	</div>
 
