@@ -86,6 +86,27 @@
 	</div>
 
 </div>
+<div id="hcievaluation" class="section features" data-magellan-destination="technicals" style = "margin-top:50px;">
+
+	<div class="row hi-icon-wrap hi-icon-effect-3 hi-icon-effect-3b">
+
+		<div class="large-12 columns">
+
+			<h2>HCI Evaluation</h2>
+            <ul>
+            <li><a href = "documents/shehroze_heuristics.pdf">Shehroze's Heuristic Evaluation</a></li>
+            <li><a href = "documents/tom_heuristics.pdf">Tom's Heuristic Evaluation</a></li>
+            </ul>
+
+
+
+		</div>
+
+
+
+	</div>
+
+</div>
 </div>
 
 <?php include("includes/footer.php") ; ?>	
