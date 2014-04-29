@@ -38,7 +38,7 @@
                   
                   <li data-magellan-arrival="features"><a href="index.php#features">Features</a></li>
 
-			      <li data-magellan-arrival="product"><a href="index.php#product">Manuals</a></li>
+			      <li data-magellan-arrival="product"><a href="manuals.php">Manuals</a></li>
 
 			      <li data-magellan-arrival="pricing"><a href="technicals.php">Technicals / References</a></li>
 

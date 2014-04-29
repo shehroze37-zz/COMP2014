@@ -168,30 +168,6 @@
 
 </div>
 
-<div id="product" class="section product gray" data-magellan-destination="product">
-
-	<div class="row">
-
-		<div class="large-12 columns">
-
-			<h2>Manuals</h2>
-
-			
-			<div class="row">
-
-				
-
-
-			</div>
-
-		</div>
-
-	</div>
-
-</div>
-
-
-
 
 <div id="contact"  class="section contact gray" data-magellan-destination="contact">
 
