@@ -104,12 +104,30 @@
 
 		<div class="large-12 columns">
 
+			<h2>Management of the Project</h2>
+            <p>Because there were only two people working on the project, this made the management much easier among the group members and we divided the work fairly from the very start. We set deadlines in terms of the requirements we were suppose to complete and were getting feedback on the work from the client. Although the work burden was increased because of the number of people in the team, good management allowed us to finish the project in time along with the reports, presentations and other stuff. Both of us decided to complete the must have set of requirements by the end of reading week. Although we were a little late on schedule during that time period but after that we got on track. All the must have requirements were completed following the end of reading week and then we started working on the should have requirements and putting everything together.The individual bit for the project were completed by the end of march and then during april we started testing and putting everything together and making sure that nothing  in terms of features and functionality is left out. Shehroze was responsible for handling the grahical elements of the project and creating various controllers and model classes required for the project. Tom was responsible for integrating libraries for compiling and uploading the code on the engduino. We were havong consistent meetings discussing any issues and taking things further from that point. Listed below is the the complete list of the work packages completed between the two team memebers.</p>
+
+
 			<h2>Work Packages</h2>
             <ul>
                 <p>Shehroze completed the following work packages:</p>
                 <ul>
-                    <li></li>
+                    <li>Creating and designing the main User interface</li>
+                    <li>Creating the classes to connect the modules together</li>
+                    <li>Creating different controller classes including the Sketch Controller, Module Controller, Module Connection controller, Code View Controller etc</li>
+                    <li>Creating model classes to represent objects such as sketch, module, different modules classes that extend the main module class</li>
+                    <li>Designing and creating graphics for representing different modules</li>
+                    <li>Creating different classes involved in creating connection between different modules</li>
+                    <li>Creating utilities such as opening and saving of sketch,  creating new sketch, verifying code</li>
+                    <li>Creating classes to generate XML file for sketches and to parse XML and generate sketches</li>
+                    <li>Programming the main controller for the graphical user interface</li>
+                    <li>Integrating Dialogs which are used for displaying errors and messages to the user</li>
+                    
+                    <li>Testing functionality on Mac</li>
                 </ul>
+                
+                <br/>
+             
                 <p>Tom completed the following work packages:</p>
                 <ul>
                     <li>Creation of JUnit Tests.</li>
