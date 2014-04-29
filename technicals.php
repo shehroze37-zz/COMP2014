@@ -36,9 +36,17 @@
 
   <link href='http://fonts.googleapis.com/css?family=Cabin+Condensed:600' rel='stylesheet' type='text/css'>
 
+<link rel="stylesheet" type="text/css" href="shadowbox-3.0.3/shadowbox.css">
+<script type="text/javascript" src="shadowbox-3.0.3/shadowbox.js"></script>
+<script type="text/javascript">
+Shadowbox.init({
+    handleOversize: "drag",
+    modal: true
+});
+</script>
 
 
-  <script src="js/vendor/custom.modernizr.js"></script>
+<script src="js/vendor/custom.modernizr.js"></script>
 
 </head>
 
@@ -75,7 +83,7 @@
 
 </div>
 
-<div id="technicals" class="section features" data-magellan-destination="technicals" style = "margin-top:50px;">
+<div id="technicals" class="section features gray" data-magellan-destination="technicals" style = "margin-top:50px;">
 
 	<div class="row hi-icon-wrap hi-icon-effect-3 hi-icon-effect-3b">
 
@@ -113,7 +121,7 @@
 
 </div>
 
-<div id="diagrams" class="section product gray" data-magellan-destination="diagrams">
+<div id="diagrams" class="section product" data-magellan-destination="diagrams">
 
 	<div class="row">
 
@@ -121,9 +129,23 @@
 
 			<h2>Architectural Diagrams</h2>
 
-			
-			
-
+				  <p>Click on the image for expanded view
+                  The entire UML diagram was broken down into different parts to make them visible and to improve the image quaility because the image quality produced by the UML plugin in netbeans wasnt very good. There may be duplication with some classes but this was the best way relationship and classes could be defined.</p>
+                
+                <a href="graphics/Diagrams/FXMLDocumentControllerDependencies.png" rel="shadowbox"><img src="graphics/Diagrams/FXMLDocumentControllerDependencies.png"/></a>
+                
+                <a href="graphics/Diagrams/SketchControllerDependencies.png" rel="shadowbox"><img src="graphics/Diagrams/SketchControllerDependencies.png"/></a>
+                <br/><br/>
+<br/>                <a href="graphics/Diagrams/InputmarkerDependencies.png" rel="shadowbox"><img src="graphics/Diagrams/InputmarkerDependencies.png"/></a>
+                
+                <a href="graphics/Diagrams/ModuleConnectionDependencies.png" rel="shadowbox"><img src="graphics/Diagrams/ModuleConnectionDependencies.png" /></a>
+                
+                
+                 <a href="graphics/Diagrams/Main4.png" rel="shadowbox"><img src="graphics/Diagrams/Main4.png"   /></a>
+                 
+                  <a href="graphics/Diagrams/Main3.png" rel="shadowbox"><img src="graphics/Diagrams/Main3.png"   /></a>
+                 
+                  
 		</div>
 
 	</div>
