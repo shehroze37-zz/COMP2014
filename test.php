@@ -57,7 +57,7 @@
 
 			<h2>Testing</h2>
 
-            <p>Our testing strategy consists of running unit tests on critical parts of code, that are required for multiple functions in the system. The JUnit framework is used for this which integrates with NetBeans, allowing them to be run automatically following any modifications to the relevant code. We have also conducted general system testing across multiple operating systems and CPU architectures to ensure the software works as intended.</p>
+            <p>Our testing strategy consists of running unit tests on critical parts of code, that are required for multiple functions in the system. The JUnit framework is used for this which integrates with NetBeans, allowing them to be run automatically following any modifications to the relevant code. This provides us with instant feedback on whether our code meets the specification that we have set, rather than waiting to find an error in the software later on, thus streamlining the development process. We have also conducted general system testing across multiple operating systems and CPU architectures to ensure the software works as intended. This is done to ensure that the binaries used for the compilers, uploader and other avr tools are fully working and referenced properly from the software. Unfortunately due to timing issues with the school holidays, we have been unable to complete the user acceptance testing that we had been planning, with development on the IDE finishing just as the school that we were planning on testing at started their break.</p>
 
 			
 
