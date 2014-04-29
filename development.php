@@ -74,6 +74,30 @@
 
 </div>
 
+<div id="collab" class="section features" data-magellan-destination="technicals" style = "margin-top:50px;">
+
+	<div class="row hi-icon-wrap hi-icon-effect-3 hi-icon-effect-3b">
+
+		<div class="large-12 columns">
+
+			<h2>Collaboration opportunities</h2>
+
+				<p>Our IDE could be developed further to support new functionality within both the IDE itself and also to provide further functionality with Engduino. This could include:</p>
+			    <ul>
+			        <li>Allow the use of additional components on the Engduino, including Arduino shields, .NET Gadgeteer modules and other electrical components. These could then have functionality included within a drag and drop block in the IDE.</li>
+			        <li>Provide a cloud service to allow the IDE to save onto the cloud, allowing pupils to work on a sketch from multiple locations and also to allow the teachers to look through the work and mark it in one centralised location.</li>
+			        <li>Parts of our code could also be repurposed and released as a Java library to allow the compilation of AVR code and communication and upload with Arduino boards</l>
+
+			    </ul>
+                <p>These could be supported by groups such as the Engduino team within UCL Computer Science, Microsoft Research providing support for Gadgeteer modules or Arduino shield manufacturers integrating their libraries into the IDE. Addition of other components could be provided by storing library and module details within an XML file to describe each module or functionality.</p>
+		</div>
+
+
+
+	</div>
+
+</div>
+
 <div id="management" class="section product gray" data-magellan-destination="diagrams">
 
 	<div class="row">
