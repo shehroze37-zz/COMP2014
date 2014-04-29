@@ -83,7 +83,7 @@ Shadowbox.init({
 
 		<div align="center" class="large-12 columns">
 			<h2>System Manual</h2>
-			
+			<a href="manuals/SystemManual.pdf">Download the System Manual</a>
 
 		</div>
 		

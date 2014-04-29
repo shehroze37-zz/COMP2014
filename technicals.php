@@ -65,7 +65,7 @@ Shadowbox.init({
 
 			<h2>Referenced materials cited</h2>
 				
-                <p>The sources listed below were used because most of them provide open source Utility such as Creating and handling dialogs ...</p>
+                <p>The sources listed below were used because they provide open source utilities that allow creating and handling dialogs ...</p>
 				<ul>
                 	<li><a target="_blank" href = "http://docs.oracle.com/javafx/2/drag_drop/jfxpub-drag_drop.htm">http://docs.oracle.com/javafx/2/drag_drop/jfxpub-drag_drop.htm</a></li>
                     <li> <a target="_blank" href = "http://http//code.makery.ch/java/javafx-2-tutorial-part5/">http://http//code.makery.ch/java/javafx-2-tutorial-part5/</a></li>
