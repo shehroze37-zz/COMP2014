@@ -50,7 +50,7 @@
 
 
 
-<div id="features" class="section features" data-magellan-destination="features">
+<div id="features" class="section features gray" data-magellan-destination="features">
 
 	<div class="row hi-icon-wrap hi-icon-effect-3 hi-icon-effect-3b">
 
@@ -166,6 +166,22 @@
 
 	</div>
 
+</div>
+
+
+<div id="contact"  class="section contact gray" data-magellan-destination="contact">
+    <div class="row">
+		<div align="center" class="large-12 columns">
+
+			<h2>Product Video</h2>
+				<video width="640" height="480" controls>
+                  <source src="video/demo.mp4" type="video/mp4">
+                  
+                Your browser does not support the video tag.
+                </video>
+        </div>
+
+   </div>
 </div>
 
 
